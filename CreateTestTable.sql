@@ -1,0 +1,7 @@
+CREATE TABLE dbo.Test 
+(
+
+	TestID INT, 
+	CreateDate DATETIME NOT NULL DEFAULT GETDATE()
+
+);
